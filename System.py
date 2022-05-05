@@ -3,6 +3,11 @@ import cv2
 import win32api
 import win32con
 import win32gui
+import datetime
+
+
+def get_system_time():
+    return datetime.datetime.now()
 
 
 class System:
